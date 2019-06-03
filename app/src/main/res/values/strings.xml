@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Grades_Calculator</string>
+
+    <string name="portrait_text">Portrait</string>
+    <string name="landscape_text">Landscape</string>
+
+    <string name="about_text">Look into our school for a variety of  IT programs: http://www.senecacollege.ca</string>
+
+</resources>

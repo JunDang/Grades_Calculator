@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/main_activity"
+    android:background="@android:color/holo_purple"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/android2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Android Grade:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/android_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/java2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Java Grade:"
+        android:textSize="20dp"
+     />
+
+    <TextView
+        android:id="@+id/java_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Kotlin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Kotlin Grade:"
+        android:textSize="20dp"
+       />
+
+    <TextView
+        android:id="@+id/kotlin_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/XML2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="XML:"
+        android:textSize="20dp"
+    />
+
+    <TextView
+        android:id="@+id/xml_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_land"
+        android:textColor="@color/White"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>
